@@ -1,0 +1,33 @@
+# Data & runtime
+data/
+*.json
+!package.json
+
+# Artifacts (agent-generated, not source)
+artifacts/
+
+# Context (brain synthesis, not source)
+context/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.*
+secrets.*
